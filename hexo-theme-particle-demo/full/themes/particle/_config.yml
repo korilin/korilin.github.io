@@ -25,27 +25,27 @@ menu:
     icon:
       name: home
       theme: filled
-    src: /
+    src: /hexo-theme-particle-demo/full/public/
   about:
     icon:
       name: idcard
       theme: filled
-    src: /about # 当你的博客root为 '/' 时
+    src: /hexo-theme-particle-demo/full/public/about
   archives:
     icon:
       name: folder
       theme: filled
-    src: /archives
+    src: /hexo-theme-particle-demo/full/public/archives
   categories:
     icon:
       name: book
       theme: filled
-    src: /like/categories # 当你的博客root不为 '/'，而是其它时，例如 '/like/'
+    src: /hexo-theme-particle-demo/full/public/categories
   tags:
     icon:
       name: tags
       theme: filled
-    src: /like/tags
+    src: /hexo-theme-particle-demo/full/public/tags
   英文博客:
     icon:
       name: compass
@@ -72,8 +72,8 @@ card:
         src:
       link: https://twitter.com/korilin_dev
   friend_links:
-    英文技术博客: https://en.korilin.com
-    日语记录博客: https://jp.korilin.com
+    night style: https://korilin.github.io/hexo-theme-particle-demo/night/public
+    maiden style: https://korilin.github.io/hexo-theme-particle-demo/maiden/public
 
 # footer info
 footer:
@@ -89,9 +89,9 @@ gitalk:
   enable: true
   clientID: # GitHub Application Client ID
   clientSecret: # GitHub Application Client Secret
-  repo: hexo-theme-particle # The name of repository of store comments
-  owner: korilin # GitHub repo owner
-  admin: korilin # GitHub repo owner and collaborators, only these guys can initialize github issues
+  repo:  # The name of repository of store comments
+  owner:  # GitHub repo owner
+  admin:  # GitHub repo owner and collaborators, only these guys can initialize github issues
   language: en # en, zh-CN, zh-TW, es-ES, fr, ru, de, pl and ko are currently available.
 
 # theme style: full / night / maiden, defalut: full

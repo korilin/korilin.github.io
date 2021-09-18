@@ -46,7 +46,7 @@ menu:
       name: tags
       theme: filled
     src: /like/tags
-  英文博客:
+  Chinese Blog:
     icon:
       name: compass
       theme: filled
@@ -55,7 +55,7 @@ menu:
 # side info card
 card:
   enable: true
-  description: ["正しさなんてもの", "人のモノサシによって変わる"]
+  description: ["this is night style"]
   icon_links:
     github:
       icon:
