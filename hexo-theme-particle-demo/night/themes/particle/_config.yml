@@ -83,9 +83,9 @@ gitalk:
   enable: true
   clientID: # GitHub Application Client ID
   clientSecret: # GitHub Application Client Secret
-  repo: hexo-theme-particle # The name of repository of store comments
-  owner: korilin # GitHub repo owner
-  admin: korilin # GitHub repo owner and collaborators, only these guys can initialize github issues
+  repo: # The name of repository of store comments
+  owner: # GitHub repo owner
+  admin: # GitHub repo owner and collaborators, only these guys can initialize github issues
   language: en # en, zh-CN, zh-TW, es-ES, fr, ru, de, pl and ko are currently available.
 
 # theme style: full / night / maiden, defalut: full
