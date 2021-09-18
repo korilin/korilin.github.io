@@ -1,21 +1,21 @@
 
 <!DOCTYPE html>
-<html lang="zh-CN ">
+<html lang="en ">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Particle Demo || hexo-theme-particle 的使用说明</title>
+    <title>Particle Demo || Full Theme</title>
     <meta name="author" content="korilin">
     <meta name="description" content="hexo-theme-particle full style demo ">
     <meta name="keywords" content=" ">
-    <link rel="icon" href="/hexo-theme-particle-demo/full/public/images/avatar.jpg">
-    <link rel="stylesheet" href="/hexo-theme-particle-demo/full/public/css/antd.min.css">
+    <link rel="icon" href="/hexo-theme-particle-demo/night/public/images/avatar.png">
+    <link rel="stylesheet" href="/hexo-theme-particle-demo/night/public/css/antd.min.css">
     
-    <link rel="stylesheet" href="/hexo-theme-particle-demo/full/public/css/full-theme.css">
+    <link rel="stylesheet" href="/hexo-theme-particle-demo/night/public/css/full-theme.css">
     
-    <script src="/hexo-theme-particle-demo/full/public/js/vue.js"></script>
-    <script src="/hexo-theme-particle-demo/full/public/js/antd.min.js"></script>
+    <script src="/hexo-theme-particle-demo/night/public/js/vue.js"></script>
+    <script src="/hexo-theme-particle-demo/night/public/js/antd.min.js"></script>
 <meta name="generator" content="Hexo 5.4.0"></head>
 
 <body>
@@ -32,7 +32,7 @@
                     <h2>LOADING...</h2>
                     <p>加载过慢请开启缓存(浏览器默认开启)</p>
                     <div>
-                        <img src="/hexo-theme-particle-demo/full/public/dancingkitty.gif" alt="loading">
+                        <img src="/hexo-theme-particle-demo/night/public/dancingkitty.gif" alt="loading">
                     </div>
                 </div>
             </div>
@@ -46,43 +46,50 @@
                      
 <nav id="menu">
     <div class="desktop-menu">
-        <a href="/hexo-theme-particle-demo/full/public/">
+        <a href="/hexo-theme-particle-demo/night/public/">
             <span class="title">Particle Demo</span>
         </a>
         
-        <a href="/hexo-theme-particle-demo/full/public/">
+        <a href="/">
             <span>
                 <a-icon type="home" theme="filled" />
             </span>
             <span>home</span>
         </a>
         
-        <a href="/hexo-theme-particle-demo/full/public/about">
+        <a href="/about">
             <span>
                 <a-icon type="idcard" theme="filled" />
             </span>
             <span>about</span>
         </a>
         
-        <a href="/hexo-theme-particle-demo/full/public/archives">
+        <a href="/archives">
             <span>
                 <a-icon type="folder" theme="filled" />
             </span>
             <span>archives</span>
         </a>
         
-        <a href="/hexo-theme-particle-demo/full/public/categories">
+        <a href="/like/categories">
             <span>
                 <a-icon type="book" theme="filled" />
             </span>
             <span>categories</span>
         </a>
         
-        <a href="/hexo-theme-particle-demo/full/public/tags">
+        <a href="/like/tags">
             <span>
                 <a-icon type="tags" theme="filled" />
             </span>
             <span>tags</span>
+        </a>
+        
+        <a target="_blank" rel="noopener" href="https://en.korilin.com">
+            <span>
+                <a-icon type="compass" theme="filled" />
+            </span>
+            <span>英文博客</span>
         </a>
         
     </div>
@@ -96,7 +103,7 @@
         </div>
         <div class="items" v-show="menu_show">
             
-            <a href="/hexo-theme-particle-demo/full/public/">
+            <a href="/">
                 <div class="item">
                     <div style="min-width:20px; max-width:50px; width: 10%">
                         <a-icon type="home" theme="filled" />
@@ -105,7 +112,7 @@
                 </div>
             </a>
             
-            <a href="/hexo-theme-particle-demo/full/public/about">
+            <a href="/about">
                 <div class="item">
                     <div style="min-width:20px; max-width:50px; width: 10%">
                         <a-icon type="idcard" theme="filled" />
@@ -114,7 +121,7 @@
                 </div>
             </a>
             
-            <a href="/hexo-theme-particle-demo/full/public/archives">
+            <a href="/archives">
                 <div class="item">
                     <div style="min-width:20px; max-width:50px; width: 10%">
                         <a-icon type="folder" theme="filled" />
@@ -123,7 +130,7 @@
                 </div>
             </a>
             
-            <a href="/hexo-theme-particle-demo/full/public/categories">
+            <a href="/like/categories">
                 <div class="item">
                     <div style="min-width:20px; max-width:50px; width: 10%">
                         <a-icon type="book" theme="filled" />
@@ -132,12 +139,21 @@
                 </div>
             </a>
             
-            <a href="/hexo-theme-particle-demo/full/public/tags">
+            <a href="/like/tags">
                 <div class="item">
                     <div style="min-width:20px; max-width:50px; width: 10%">
                         <a-icon type="tags" theme="filled" />
                     </div>
                     <div style="min-width:100px;max-width: 150%;width: 20%;">tags</div>
+                </div>
+            </a>
+            
+            <a target="_blank" rel="noopener" href="https://en.korilin.com">
+                <div class="item">
+                    <div style="min-width:20px; max-width:50px; width: 10%">
+                        <a-icon type="compass" theme="filled" />
+                    </div>
+                    <div style="min-width:100px;max-width: 150%;width: 20%;">英文博客</div>
                 </div>
             </a>
             
@@ -149,13 +165,48 @@
                 </div>
 
                 <div id="main">
-                     
-<link rel="stylesheet" href="/hexo-theme-particle-demo/full/public/css/post-body.css">
-<div class="article">
-    <div>
-        <h1>hexo-theme-particle 的使用说明 </h1>
+                    <div id="home-head" style=background-image:url('home.jpg')>
+    <script>
+        var menu = document.getElementById("menu")
+        menu.className += " menu-color"
+    </script>
+     
+    <div id="home-info" class="home-info" @click="home_click">
+        <span class="loop"></span>
+        <span class="loop"></span>
+        <span class="loop"></span>
+        <span class="loop"></span>
+        <span class="info">
+            <div class="wrap">
+                <h1>Particle Demo</h1>
+                <h3>Full Theme</h3>
+                <h5>hexo-theme-particle full style demo</h5>
+            </div>
+        </span>
     </div>
-    <div class="info">
+     
+</div>
+
+
+
+<div id="home-posts-wrap" class=>
+    <div id="home-posts">
+
+        <div id="posts">
+            
+
+<div class="post">
+
+    <a href="/hexo-theme-particle-demo/night/public/2021/09/18/hello-world/">
+        <h2>
+            hexo-theme-particle 的使用说明
+        </h2>
+    </a>
+
+    <div class="category-and-date">
+
+        
+
         <span class="date">
             <span class="icon">
                 <a-icon type="calendar" theme="filled" />
@@ -163,13 +214,13 @@
             2021/9/18
         </span>
 
-        
-
-        
     </div>
 
-    <div class="content" v-pre>
-        <h1 id="hexo-theme-particle"><a href="#hexo-theme-particle" class="headerlink" title="hexo-theme-particle"></a>hexo-theme-particle</h1><p>介绍：hexo 主题 particle，诞生原因是因为建多了两个博客，所以自己开发了这个主题来作为 3 个博客的主题</p>
+    <div class="excerpt">
+        <div class="content" v-pre>
+            
+            
+            <h1 id="hexo-theme-particle"><a href="#hexo-theme-particle" class="headerlink" title="hexo-theme-particle"></a>hexo-theme-particle</h1><p>介绍：hexo 主题 particle，诞生原因是因为建多了两个博客，所以自己开发了这个主题来作为 3 个博客的主题</p>
 <p>目前有 full、night 和 maiden 两个主题样式</p>
 <h3 id="演示地址（可访问）"><a href="#演示地址（可访问）" class="headerlink" title="演示地址（可访问）"></a>演示地址（可访问）</h3><p><strong>full 主题演示地址</strong></p>
 <p>korilin 中文技术博客：<a href="https://korilin.github.io/hexo-theme-particle-demo/full/public">https://korilin.github.io/hexo-theme-particle-demo/full/public</a></p>
@@ -355,13 +406,109 @@ gitalk:
 </code></pre>
 <h3 id="写在最后"><a href="#写在最后" class="headerlink" title="写在最后"></a>写在最后</h3><p>本项目采用 MIT 开源许可证，欢迎大家贡献，你可以随意打开一个 issue 来进行提问，有任何改进想法都可以进行 fork，等待您的 Pull Request。</p>
 
+            
+        </div>
     </div>
 
-    
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
-    <div id="comment">
-        <div id="gitalk-container">
+    <div class="post-tags">
+        
+        
+    </div>
+
+    <a href="/hexo-theme-particle-demo/night/public/2021/09/18/hello-world/ " class="go-post">
+        阅读全文
+    </a>
+</div>
+
+
+             
+<div class="page-current">
+
+    <div class="prev">
+        
+    </div>
+
+    <div class="page-index">
+
+        
+
+        <span class="current">
+            1
+        </span>
+
+        
+
+    </div>
+
+    <div class="next">
+        
+    </div>
+
+</div>
+
         </div>
+    </div>
+    
+    <div id="home-card">
+        <a-affix :offset-top="card_top">
+    <a-card class="card-style" style="width: 300px">
+        <div class="avatar">
+            <img src="images/avatar.png " alt="头像">
+        </div>
+        <div class="name">
+            korilin
+        </div>
+        <div class="descriptions">
+            
+            <div class="description">
+                正しさなんてもの
+            </div>
+            
+            <div class="description">
+                人のモノサシによって変わる
+            </div>
+            
+        </div>
+        <div class="icon-links">
+            
+            <span class="icon-link">
+                <a target="_blank" rel="noopener" href="https://github.com/korilin">
+
+                    
+                    <a-icon type="github"
+                        theme="filled" />
+                    
+                </a>
+            </span>
+            
+            <span class="icon-link">
+                <a target="_blank" rel="noopener" href="https://twitter.com/korilin_dev">
+
+                    
+                    <a-icon type="twitter"
+                        theme="" />
+                    
+                </a>
+            </span>
+            
+        </div>
+        <div class="friend-links">
+            
+            <div class="friend-link">
+                <a target="_blank" rel="noopener" href="https://en.korilin.com">
+                    英文技术博客
+                </a>
+            </div>
+            
+            <div class="friend-link">
+                <a target="_blank" rel="noopener" href="https://jp.korilin.com">
+                    日语记录博客
+                </a>
+            </div>
+            
+        </div>
+    </a-card>
+</a-affix>
     </div>
     
 </div>
@@ -382,8 +529,8 @@ gitalk:
 
 </footer>
 
-<script src="/hexo-theme-particle-demo/full/public/js/highlight.min.js"></script>
-<script src="/hexo-theme-particle-demo/full/public/js/particle.js"></script>
+<script src="/hexo-theme-particle-demo/night/public/js/highlight.min.js"></script>
+<script src="/hexo-theme-particle-demo/night/public/js/particle.js"></script>
                 </div>
             </div>
         </transition>
@@ -427,21 +574,6 @@ gitalk:
             }
         }
     })
-</script>
-
-<script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
-<script>
-    const gitalk = new Gitalk({
-        clientID: '',
-        clientSecret: '',
-        repo: '',      // The repository of store comments,
-        owner: '',
-        admin: [''],
-        language: 'en',
-        id: location.pathname,      // Ensure uniqueness and length less than 50
-        distractionFreeMode: true  // Facebook-like distraction free mode
-    })
-    gitalk.render('gitalk-container')
 </script>
 
 </body>

@@ -46,16 +46,11 @@ menu:
       name: tags
       theme: filled
     src: /hexo-theme-particle-demo/full/public/tags
-  英文博客:
-    icon:
-      name: compass
-      theme: filled
-    src: https://en.korilin.com
 
 # side info card
 card:
   enable: true
-  description: ["正しさなんてもの", "人のモノサシによって変わる"]
+  description: ["This is description", "can be more lines"]
   icon_links:
     github:
       icon:
