@@ -5,7 +5,7 @@
 language: zh
 
 # avatar image url
-head_img: images/avatar.png
+head_img: images/avatar.jpg
 
 # home page head info block
 head_block_enable: true
@@ -25,33 +25,27 @@ menu:
     icon:
       name: home
       theme: filled
-    src: /
+    src: /hexo-theme-particle-demo/night/public/
   about:
     icon:
       name: idcard
       theme: filled
-    src: /about # 当你的博客root为 '/' 时
+    src: /hexo-theme-particle-demo/night/public/about # 当你的博客root为 '/' 时
   archives:
     icon:
       name: folder
       theme: filled
-    src: /archives
+    src: /hexo-theme-particle-demo/night/public/archives
   categories:
     icon:
       name: book
       theme: filled
-    src: /like/categories # 当你的博客root不为 '/'，而是其它时，例如 '/like/'
+    src: /hexo-theme-particle-demo/night/public/categories # 当你的博客root不为 '/'，而是其它时，例如 '/like/'
   tags:
     icon:
       name: tags
       theme: filled
-    src: /like/tags
-  Chinese Blog:
-    icon:
-      name: compass
-      theme: filled
-    src: https://en.korilin.com
-
+    src: /hexo-theme-particle-demo/night/public/tags
 # side info card
 card:
   enable: true
@@ -72,8 +66,8 @@ card:
         src:
       link: https://twitter.com/korilin_dev
   friend_links:
-    英文技术博客: https://en.korilin.com
-    日语记录博客: https://jp.korilin.com
+    full style: https://korilin.github.io/hexo-theme-particle-demo/full/public
+    maiden style: https://korilin.github.io/hexo-theme-particle-demo/maiden/public
 
 # footer info
 footer:
@@ -95,4 +89,4 @@ gitalk:
   language: en # en, zh-CN, zh-TW, es-ES, fr, ru, de, pl and ko are currently available.
 
 # theme style: full / night / maiden, defalut: full
-style: full
+style: night

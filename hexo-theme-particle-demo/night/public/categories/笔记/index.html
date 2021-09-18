@@ -5,7 +5,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Particle Demo || Night Theme</title>
+    <title>Particle Demo || 笔记</title>
     <meta name="author" content="korilin">
     <meta name="description" content="hexo-theme-particle night style demo ">
     <meta name="keywords" content=" ">
@@ -149,48 +149,70 @@
                 </div>
 
                 <div id="main">
-                    
-<div id="archives">
+                     
+<div class="categories-tags">
     
-    <a-timeline>
-        <a-timeline-item timestamp="2020/10/14" placement="top" color="#a5c2f5">
-            <a-card hoverable>
-                <div class="item-time">2020/10/14</div>
-                <a href="/hexo-theme-particle-demo/night/public/2020/10/14/README/">
-                    <h3>What is Software Engineering</h3>
-                </a>
-                <div class="info">
-                    
-                    <span class="category">
-                        <a href="/hexo-theme-particle-demo/night/public/categories/笔记">
-                            <span class="icon"><a-icon type="book" theme="filled" /></span>
-                            笔记
-                        </a>
-                    </span>
-                    
-
-                    
-                    <span class="tags">
-                        <span class="icon">
-                            <a-icon type="tags" />
-                        </span>
+    <div class="all-s">
+        
+        
+        <span>
+            <a href="/hexo-theme-particle-demo/night/public/categories/笔记/" style=background:#24292e>
+                <span class="icon">
+                    <a-icon type="book" theme="filled" /></span>
+                笔记
+            </a>
+        </span>
+        
+        
+    </div>
+    <div id="archives">
+        
+        <a-timeline>
+            <a-timeline-item timestamp="2020/10/14" placement="top" color="#a5c2f5">
+                <a-card hoverable>
+                    <div class="item-time">2020/10/14</div>
+                    <a href="/hexo-theme-particle-demo/night/public/2020/10/14/README/">
+                        <h3>What is Software Engineering</h3>
+                    </a>
+                    <div class="info">
                         
-                        <span class="tag">
-                            
-                            <a href="/hexo-theme-particle-demo/night/public/tags/Development" style=color:#607d8b>
-                                Development
+                        <span class="category">
+                            <a href="/hexo-theme-particle-demo/night/public/categories/笔记">
+                                <span class="icon">
+                                    <a-icon type="book" theme="filled" />
+                                </span>
+                                笔记
                             </a>
                         </span>
                         
-                    </span>
-                    
-                </div>
-            </a-card>
-        </a-timeline-item>
-    </a-timeline>
-    
-</div>
 
+                        
+                        <span class="tags">
+                            <span class="icon">
+                                <a-icon type="tags" />
+                            </span>
+                            
+                            <span class="tag">
+                                
+                                <a href="/hexo-theme-particle-demo/night/public/tags/Development" style=color:#607d8b>
+                                    Development
+                                </a>
+                            </span>
+                            
+                        </span>
+                        
+                    </div>
+                </a-card>
+            </a-timeline-item>
+        </a-timeline>
+        
+    </div>
+    <script>
+        new Vue({
+            el: '#archives'
+        })
+    </script>
+</div>
                      
 <footer id="footer">
     <div class="footer-wrap">
